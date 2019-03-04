@@ -37,7 +37,7 @@ h1 {
 #characterStats {
     display: inline-block;
     height: 150px;
-    margin: 16px; 
+    margin: 0px; 
 }
 
 #enemieZone {
@@ -53,9 +53,21 @@ h1 {
 }
 
 #defenderStats {
-    display: inline-block;
     height: 150px;
-    margin: 16px;
+    margin: 0px;
+    float:left;
+}
+
+#defender1Stats {
+    height: 150px;
+    margin: 0px;
+    float:left;
+}
+
+#defender2Stats {
+    height: 150px;
+    margin: 0px;
+
 }
 
 img {
@@ -67,4 +79,10 @@ img {
     border-width: 6px;
     border-color: #f7f36b;
 
+}
+
+#reset {
+    height: 150px;
+    margin: 0px;
+    float:left;
 }
